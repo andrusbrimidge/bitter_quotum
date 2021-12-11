@@ -1,0 +1,112 @@
+body {
+    margin: 1px;
+    padding: 1px;
+    font-family: sans-serif;
+    background: url(https://www.pinclipart.com/picdir/big/228-2283698_atlanta-falcons-logo-vector-clipart.png);
+    background-size: cover;
+    display: flexbox;
+    background-color: linear-gradient(red, black);
+}
+.box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(black, whitesmoke);
+    text-align: center;
+    display: flexbox;
+}
+.box h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.box input[type="text"],.box input[type="password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 3px solid black;
+padding: 14px 10px;
+width: 220px;
+outline: none;
+color: white;
+border-radius: 30px;
+transition: 0.25px;
+font-size: 20px;
+background-color: red;
+
+
+}
+.box input[type="text"],.box input[type="password"]:focus,.box input[type="password"]:focus{
+width: 220px;
+padding: 14px 10px;
+border-color: aqua;
+text-align: center;
+border-radius: 30px;
+display: block;
+margin: 20px auto;
+background-color: red;
+color: aqua;
+font-size: 20px;
+
+
+}
+.box input[type="submit"]{
+    
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 3px solid red;
+padding: 14px 10px;
+width: 220px;
+outline: none;
+color: red;
+border-radius: 30px;
+transition: 0.25px;
+cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+background: black;
+}
+.img {
+    background: center;
+    background-size: cover;
+
+}
+header {  
+box-sizing: border-box;
+text-align: start;
+position: relative;
+margin-top: 20%;
+margin-left: 3%;
+justify-content: space-between;
+
+}
+h1 {
+    font-size: 500%;
+    font-weight: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    -webkit-text-stroke: 1px black;
+}
+footer {
+    box-sizing: border-box;
+    margin-top: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    font-size: 20px;
+
+}
