@@ -37,11 +37,11 @@ border: 3px solid black;
 padding: 14px 10px;
 width: 220px;
 outline: none;
-color: white;
+color: red;
 border-radius: 30px;
 transition: 0.25px;
 font-size: 20px;
-background-color: red;
+background-color: rgb(81, 255, 0);
 
 
 }
@@ -53,7 +53,7 @@ text-align: center;
 border-radius: 30px;
 display: block;
 margin: 20px auto;
-background-color: red;
+background-color: rgb(81, 255, 0);
 color: aqua;
 font-size: 20px;
 
@@ -96,8 +96,11 @@ h1 {
     font-size: 500%;
     font-weight: 100px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: red;
+    color: rgb(81, 255, 0);
     -webkit-text-stroke: 1px black;
+    display: flexbox;
+    position: relative;
+    
 }
 footer {
     box-sizing: border-box;
@@ -109,6 +112,17 @@ footer {
     margin-left: 30%;
     font-size: 20px;
 
+}
+h2 {
+    align-items: center;
+    color: rgb(81, 255, 0);
+    margin-left: 0;
+}
+h3 {
+    margin-top: 3%;
+    color: rgb(81, 255, 0);
+    margin-left: 30%;
+    
 }
 
 *,
