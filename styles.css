@@ -109,12 +109,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10%;
-    font-size: 20px;
+    margin-left: 40%;
+    font-size: 10px;
     color: rgb(81, 255, 0);
     border-radius: 50%;
-
 }
+
 h2 {
     align-items: center;
     color: rgb(81, 255, 0);
@@ -130,6 +130,14 @@ h4 {
     font-size: 30px;
     margin-top: 15%;
     margin-left: 25%;
+}
+.btn-group, .btn-group-vertical {
+    padding-top: 70%;
+    display: inline-flex;
+    vertical-align: middle;
+    align-content: center;
+    
+    
 }
 
 *,
@@ -160,14 +168,9 @@ a {
     padding: 0%;
     color: greenyellow;
     align-content: space-around; 
-    padding: 1%; 
-    padding-left: 8%;
-
+    padding: 1%;  
 }
 .col-4 {
 color: white;
 font-size: large;
-
-
-
 }
